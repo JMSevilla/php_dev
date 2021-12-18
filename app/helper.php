@@ -1,4 +1,5 @@
 <?php
+//Receiving data from Javascript or Frontend 
 spl_autoload_register('route_into_model');
 if(isset($_POST['validateTrigger']) == false){
     $data = [
